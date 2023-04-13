@@ -23,9 +23,8 @@ input{
     width: 100%;
     height: 100%;
 }
-input:focus {
-    width: 20px;
-    height: 100%;
+.search_main .search_input input:focus .search_icon img{
+    display: none;
 }
 input:focus-visible {
     outline: none;
@@ -255,3 +254,6 @@ small.edit-option:hover {
 .your_shortcut_heading {
     margin-bottom: 5px;
 }
+/* .search_main .search_input input:focus .search_icon{
+    top: 0;
+} */
