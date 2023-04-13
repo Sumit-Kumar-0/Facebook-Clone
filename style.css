@@ -23,6 +23,10 @@ input{
     width: 100%;
     height: 100%;
 }
+input:focus {
+    width: 20px;
+    height: 100%;
+}
 input:focus-visible {
     outline: none;
 }
