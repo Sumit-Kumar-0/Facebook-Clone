@@ -200,7 +200,7 @@ li.navigation_list_item {
     transition: 0.5s;
     z-index: 3;
 }
-li.navigation_list_item a:hover ~ .nav_hover_text {
+li.navigation_list_item a:hover ~ .nav_hover_text, li.menu_list_item:hover > .nav_hover_text {
     display: block;
 }
 li.navigation_list_item.active {
@@ -330,3 +330,42 @@ small.edit-option:hover {
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
+.notification_count, .messege_count {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #FA383E;
+    border-radius: 50%;
+    top: -4px;
+    right: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification_count small, .messege_count small{
+    font-size: 12px;
+    color: #fff;
+}
+.post_reel_arrow {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 111;
+    position: absolute;
+    right: -22px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.post_reel_arrow:hover {
+    background: #DADDE1;
+}
+
