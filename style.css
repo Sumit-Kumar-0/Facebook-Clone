@@ -368,4 +368,105 @@ small.edit-option:hover {
 .post_reel_arrow:hover {
     background: #DADDE1;
 }
-
+.post_whats_on_mind {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.my_btn1_icon {
+    width: 24px;
+    height: 24px;
+}
+.profile_whats_on_mind_input {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EBEDF0;
+}
+.whats_on_mind_input {
+    width: 90%;
+}
+.whats_on_mind_input input {
+    border-radius: 20px;
+    border: none;
+    background: #ebecf0;
+    padding: 0 20px;
+    font-size: 19px;
+    transition: 0.5s;
+}
+.whats_on_mind_input input:hover {
+    background: #DADDE1;
+}
+.width-500p {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+.live_photo_feelings_btn {
+    display: flex;
+    gap: 10px;
+}
+.my_btn1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.my_btn1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 33.33%;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.my_btn1:hover{
+    background: #ebecf0;
+}
+p.my_btn1_text {
+    font-size: 17px;
+    color: #606770;
+    font-weight: 600;
+}
+.create_room_btn_img {
+    width: 24px;
+    height: 24px;
+}
+.create_room_btn {
+    display: flex;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #DADDE1;
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+}
+.post_create_room {
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+.create_room_btn_txt{
+    font-size: 17px;
+    font-weight: 600;
+    color: #3578E5;
+}
+.create_room_btn{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.create_room_btn:hover{
+    background: #ebecf0;
+}
